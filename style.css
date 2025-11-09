@@ -8,6 +8,8 @@ html, body {
      min-height: 100vh;
 }
 
+
+
   @view-transition {
     navigation: auto;
   }
@@ -27,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
 
-main_container {
+.main_container {
     background-image: linear-gradient(to bottom, #ffffff, #f4f4f4);
     display: flex;
   flex-wrap: wrap; /* This is the key property */
