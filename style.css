@@ -272,7 +272,7 @@ text-decoration:none;
     left: 0;
     display: flex;
     align-items: center;
-    padding: 10px 20px 10px 380px;
+    padding: 10px 20px 10px 250px;
     border-radius: 0 8px 8px 0 ;
     text-decoration: none;
     color: #00688E;
@@ -770,5 +770,6 @@ color: #3E1B82;
 .results_text {
     font-size: 15px;
     }
+
 
 
