@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 
 
@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
     <title>Embroidery App Study</title>
@@ -22,16 +25,61 @@
 
 
 <!-- COVER PAGE -->
-<div id="cover-page" class="page">
+<div id="cover-page">
+
+
     <div class="cover-content">
-        <div class="header shadowed rounded_8">
-            <div class="name">MIGUEL VALVERDE DOMINGUEZ</div>
-            <div class="job">UX/UI DESIGNER</div>
+        <div class="header shadowed">
+            <div class="name">MIGUEL VALVERDE DOMINGUEZ
+            </div>
+
+            <div class="job">
+                <span>UX/UI DESIGN PORTFOLIO</span>
+
+                <div class="wrapper" onclick="window.location.href='welcome.html'">
+
+                    <div class="container">
+
+                        <div class="main_icon">
+
+
+                            <img src="images/arrow_icon_outside.svg" alt="Arrow" class="icon_frame" style="opacity:0.5">
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="arrow-container shadowed" onclick="window.location.href='welcome.html'">
-            <img src="images/icon_next.svg" alt="Arrow" class="icon_next">
-        </div>
+
+
+
+
+
+
+
     </div>
+
+
+    <style>
+        .icon_frame {
+            animation: rotate 10s linear infinite;
+            transform-origin: center center;
+            display: inline-block;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+
 </div>
 
 
