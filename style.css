@@ -979,7 +979,7 @@ PROTOTYPING SECTION
 
 .prototype_button{
     background-color: white;
-    border: 2px, solid #00688E;
+    border: 2px solid #00688E;
     color: #00688E;
     padding: 8px 16px;
     font-weight:600;
