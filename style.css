@@ -39,6 +39,7 @@ body, p {
     font-size: 1rem;
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -867,6 +868,32 @@ DEFINE SECTION
 
 
 
+.persona_qul_a{
+    background-image: linear-gradient(to right, #E4CFE2, #F8D8FF);
+}
+
+.persona_qul_a .persona_card_image{
+    border: 4px solid #3A195E;
+}
+.persona_qul_a .persona_name{
+    color: #3A195E;
+}
+
+
+
+.persona_qul_b{
+    background-image: linear-gradient(to right, #F9E1A0, #FFFAD0);
+}
+
+.persona_qul_b .persona_card_image{
+    border: 4px solid #714E02;
+}
+.persona_qul_b .persona_name{
+    color: #714E02;
+}
+
+
+
 .problem{
     text-align: center;
     border-top:3px solid #00688E; 
@@ -978,7 +1005,7 @@ PROTOTYPING SECTION
 }
 
 .prototype_button{
-    background-color: white;
+    background-color: #E5FFF4;
     border: 2px solid #00688E;
     color: #00688E;
     padding: 8px 16px;
@@ -999,7 +1026,7 @@ PROTOTYPING SECTION
 
 .prototype_button:hover{
     box-shadow: 0 2px 4px rgba(0, 0, 0,0.25);
-    background-color: lightgrey;
+    background-color: #C3FBE3;
 }
 
 
