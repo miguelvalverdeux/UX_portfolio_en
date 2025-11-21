@@ -22,7 +22,7 @@ body {
 
 
 @view-transition {
-  
+
 
     navigation: auto;
 }
@@ -76,16 +76,16 @@ SCALING
 
 /* Base (default) styles */
 body {
-  transform: scale(1);
-  transform-origin: top center;
+    transform: scale(1);
+    transform-origin: top center;
 }
 
 /* Apply downscaling on phones and small devices */
 @media (max-width: 720px) {
-  body {
-    transform: scale(0.75);
-    transform-origin: top center;
-  }
+    body {
+        transform: scale(0.75);
+        transform-origin: top center;
+    }
 }
 
 
@@ -171,7 +171,7 @@ p, li, div{color: #424242;
 }
 
 
- strong {
+strong {
     font-weight: 600;
 }
 
@@ -593,7 +593,7 @@ BACK BUTON
     height: 32px;
     transition: all 0.3s ease;
     flex-shrink: 0;
-    
+
     pointer-events:none;
 }
 
