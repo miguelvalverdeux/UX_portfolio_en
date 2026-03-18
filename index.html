@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
-    
+  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9LRB7H4WTY"></script>
 <script>
@@ -15,83 +14,141 @@
 </script>
 
 
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-
-    <title>UX/UI DESIGN PORTFOLIO</title>
+  <title>UX/UI DESIGN PORTFOLIO</title>
 </head>
 
-
-<body>
-
-
-<!-- COVER PAGE -->
-<div id="cover-page">
+<!-- MAIN CONTAINER START -->
 
 
-    <div class="cover-content">
-        <div class="header shadowed">
+
+
+<main_index_container>
+
+
+<!-- ABOUT START -->
+
+
+<div class="flex_column header_box shadowed rounded_4"  >
+
+  <div class="header shadowed">
             <div class="name">MIGUEL VALVERDE DOMINGUEZ
             </div>
 
-            <div class="job">
-                <span>UX/UI DESIGN PORTFOLIO</span>
-
-                <div class="wrapper" onclick="window.location.href='welcome.html'">
-
-                    <div class="container">
-
-                        <div class="main_icon">
-
-
-                            <img src="images/arrow_icon_outside.svg" alt="Arrow" class="icon_frame" style="opacity:0.5">
-
-
-                        </div>
-
-
-                    </div>
-
-
-                </div>
+            <div class="job">UX/UI DESIGNER
 
             </div>
 
+  </div>
+
+
+
+
+    <div  class="flex_row" style="width:100%; justify-content: flex-start; gap:8px; padding-left:16px;">
+      <div  class="about_image_wrapper">
+
+      <img src="images/Foto.jpg" alt="Photo" class="about_image" />
+      </div>
+
+      <div  class="about_text_area">
+
+
+
+        <div class="about_text" style="padding:16px">
+
+
+         <p>Hi there — I&apos;m Miguel Valverde!</p>
+         <p>I started my career as a graphic designer 14 years ago, as part of a small software branch of SVP Worldwide in London.<br>
+         Over the years, my role at the company evolved into UX, and for the last six years I&apos;ve been responsible for designing creative apps for the company.<br>
+
+          My ultimate goal always was to turn complex technical processes and tools into user-friendly, enjoyable experiences.</p>
+         <p>In this portfolio I will show case studies of my UX highlights.</p>
+
+
+         <p>Thanks for reading!</p>
         </div>
-
-
-
-
-
-
-
+      </div>
     </div>
 
 
-    <style>
-        .icon_frame {
-            animation: rotate 30s linear infinite;
-            transform-origin: center center;
-            display: inline-block;
-        }
-
-        @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-    </style>
-
 </div>
+
+
+
+
+
+<!-- ABOUT END -->
+
+
+
+<!-- PROJECT SECTION START -->
+
+
+
+<a href="emb_app.html">
+  <section class="project_box shadowed rounded_16" >
+    <img src="images/emb_hero_image.jpg" alt="Embroidery App Hero" class="hero-image  rounded_12" />
+
+    <img src="images/emb_hero_device.png"  alt="Embroidery Device Float" class="device_floating" />
+
+    <div class="title-overlay">
+      <div class="title-content">
+        <h1 class="project_main_title">CREATIVATE EMBROIDERY APP</h1>
+        <p class="project_subtitle">Turning a 20 Years Old Desktop Software into a New Tablet Experience</p>
+      </div>
+    </div>
+  </section>
+</a>
+
+
+<a href="cnc_app.html">
+<section class="project_box shadowed rounded_16">
+  <img src="images/cnc_hero_image.jpg" alt="Crafting App Hero" class="hero-image  rounded_12" />
+
+  <img src="images/cnc_hero_device_v2.png"  alt="Crafting Device Float" class="device_floating_cnc" />
+
+  <div class="title-overlay_cnc">
+    <div class="title-content">
+      <h1 class="project_main_title_cnc">CRAFTING MACHINE AND APP</h1>
+      <p class="project_subtitle_cnc">Expanding the brand into Crafting</p>
+    </div>
+  </div>
+</section>
+</a>
+
+<a href="qul_app.html">
+<section class="project_box shadowed rounded_16">
+  <img src="images/qul_hero_image.jpg" alt="Quilt App Hero" class="hero-image  rounded_12" />
+
+  <img src="images/qul_hero_device.png"  alt="Quilting Device Float" class="device_floating" />
+  <div class="title-overlay">
+    <div class="title-content">
+      <h1 class="project_main_title">CREATIVATE QUILTING APP</h1>
+      <p class="project_subtitle">Designing a tool for the Quilters</p>
+    </div>
+  </div>
+</section>
+</a>
+
+
+
+
+
+
+
+
+</main_index_container>
+
+
+<!-- MAIN CONTAINER END -->
 
 
 </body>

@@ -99,7 +99,6 @@ GENERAL LAYOUT
     display: flex;
     margin: auto;
     flex-direction: column; 
-    gap:32px
 }
 
 .flex_row{
@@ -148,6 +147,11 @@ STYLING
 
 .rounded_8{
     border-radius:  8px;
+}
+
+.rounded_12{
+    border-radius:  12px;
+}
 }
 
 .rounded_16{
@@ -212,7 +216,7 @@ COVER PAGE (Portada)
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius:24px 24px 64px 64px
+    width:100%;
 }
 
 
@@ -220,17 +224,16 @@ COVER PAGE (Portada)
 .name {
 
     display: flex;
-    justify-content:center;
+    justify-content:left;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     width:100%;
     color: white;
     background-image: linear-gradient(to bottom, #1A1919, #424242);
     margin: auto;
-    padding:16px  32px ;
-    font-size: 3.45rem;
+    padding:0px 0px 0px 32px;
+    font-size: 2rem;
     box-sizing: border-box;
-    border-radius:24px 24px 0 0;
 }
 
 .job {
@@ -240,108 +243,16 @@ COVER PAGE (Portada)
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     width:100%;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     color: #00688E;
-    gap:32px;
-    padding:16px 16px 16px 32px ;
+    padding:0px 0px 0px 32px;
     background-image: linear-gradient(to bottom, #ffffff, #d2d2d2);
     box-sizing: border-box;
-    border-radius:0 0 64px 64px;
 }
 
-
-.arrow-container {
-
-
-    display:  flex;
-    cursor: pointer;
-    padding: 10px;
-    background-image: linear-gradient(to top, #044056, #00688E);
-    line-height: 1;
-    border-radius:61px;
-    border: 1px solid #00688E;
-    transition: all 0.5s ease-in-out;
-}
-
-.arrow-container:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0,0.25);
-    transform: scale(1.075);
-
-}
-
-
-.icon_next {
-
-    background-image: linear-gradient(to bottom, #044056, #00688E);
-    width: 64px;
-    height: 64px;
-    padding:16px;
-    border-radius:64px;
-    border: 2px solid #00688E;
-}
-
-
-.icon_frame {
-
-    width: 64px;
-    height: 64px;
-}
-
-
-
-.wrapper{
-    display:  flex;
-    cursor: pointer;
-    padding: 10px;
-    background-image: linear-gradient(to top, #044056, #00688E);
-    border-radius:61px;
-    border: 1px solid #00688E; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0,0.5);
-    transition: all 0.5s ease-in;
-}
-
-
-.wrapper:hover{
-    background-image: linear-gradient(to top, #044056,  #027CA9);
-    box-shadow: 0 2px 4px rgba(0, 0, 0,0.25);
-    border: 1px solid #05BD83;
-}
-
-
-.container{
-
-    background-image: linear-gradient(to bottom, #044056, #00688E);
-    width: 64px;
-    height: 64px;
-    padding: 8px;
-    border-radius: 42px;
-    border: 2px solid #00688E;
-    transition: all 0.5s ease-in;
-}
-
-
-.wrapper:hover .container{
-
-    background-image: linear-gradient(to bottom, #044056, #027CA9);
-    border: 2px solid #05BD83;
-
-}
-
-
-.main_icon{
-
-    background-image: url("images/arrow_icon_inside.svg");
-
-    background-repeat: no-repeat, repeat;
-
-}
-
-/* ==========================================
-WELCOME
-========================================== */
 
 main_index_container {
     display: flex;
@@ -358,16 +269,16 @@ gap:24px;
 
 
 
-.about_box{
+.header_box{
     width:100%;
-    padding:8px;
+    padding:0px;
     font-size: 1rem;
     border: 1px solid white;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1));
     justify-content: center;
-    gap: 32px;
+    gap: 0px;
     align-items: center;
-    margin-bottom:32px;
+    margin-bottom:16px;
 }
 
 .about_text_area{
@@ -385,14 +296,13 @@ gap:24px;
     font-family: 'Oswald', sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
-    margin:0;
 
 }
 
 
 .about_text p{
-    font-size: 0.85rem;
-    margin:8px 0;
+    font-size: 0.75rem;
+    margin:8px;
 }
 
 
@@ -401,29 +311,22 @@ gap:24px;
 
 .about_image_wrapper {
     display: flex;
-
-    border-radius: 120px;
-    padding: 6px;
-    background-image: linear-gradient(to top, #044056, #00688E);
-    border: 1px solid #068EB2; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0,0.5);
+    height:100%;
+    max-width:180px;
 }
 
 
 .about_image {
-    display: flex;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 100px;
-    object-position: center;
+        top: 0;
+        left: 0;
+        margin:auto 16px;
+        width: 90%;
+        object-fit: cover;
+        object-position: center;
+    border: 1px solid white;
 
-    padding: 6px;
-    background-image: linear-gradient(to bottom, #044056, #00688E);
-    border: 1px solid #068EB2; 
+    border-radius: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,0.5);
 }
 
 
@@ -436,12 +339,12 @@ gap:24px;
 .project_box{
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 220px;
     display: flex;
     align-items: flex-end;
     padding: 16px 0;
     transition: all 0.3s ease-in-out;
-    border: 6px solid #d9d9d9;
+    border: 4px solid #d9d9d9;
 
     box-sizing: border-box;
 }
@@ -449,7 +352,7 @@ gap:24px;
 .project_box .title-overlay {
     position: relative;
     width: 100%;
-    background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0.95) 42.788%, rgba(255, 255, 255, 0.25) 65.865%);
+    background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.25) 75%);
     z-index: 1;
 }
 
@@ -457,7 +360,7 @@ gap:24px;
 .project_box .title-overlay_cnc {
     position: relative;
     width: 100%;
-    background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0.95) 42.788%, rgba(255, 255, 255, 0.25) 65.865%);
+    background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0.85) 50%, rgba(255, 255, 255, 0.25) 75%);
     z-index: 1;
 }
 
@@ -508,13 +411,12 @@ gap:24px;
 .device_floating{
 
     position: absolute;
+    display:flex_column;
     right: 0;
     top:0;
     width: auto;
-    height: 70%;
-    padding-right: 16px;
-
-    padding-top: 24px;
+    height: 188px;
+    padding: 10px;
     object-fit: cover;
     object-position: center;
 } 
@@ -525,9 +427,8 @@ gap:24px;
     left: 0;
     top:0;
     width: auto;
-    height: 70%;
-
-    padding-top: 24px;
+    height: 188px;
+    padding: 10px 10px 10px 0px;
     object-fit: cover;
     object-position: center;
 } 
@@ -535,9 +436,9 @@ gap:24px;
 
 
 .project_box:hover{
-    box-shadow: 0 2px 4px rgba(0, 0, 0,0.25);
+    box-shadow: 0 2px 2px rgba(0, 0, 0,0.25);
     transform: scale(1.025);
-    border: 6px solid #00688E;
+    border: 4px solid #00688E;
     filter: saturate(125%);
     filter: contrast(1110%);
     filter: brightness(110%);
