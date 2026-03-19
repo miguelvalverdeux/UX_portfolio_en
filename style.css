@@ -59,6 +59,7 @@ height: auto;
 /* No fixed height or max-height */
 flex-direction: column;
 width: 1280px;
+min-width: 1200px;
 padding-bottom: 64px;
 }
 
