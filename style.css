@@ -163,7 +163,7 @@ STYLING
 TEXT STYLING
 ========================================== */
 
-p, li, div{color: #424242;
+p, li, div, h3 {color: #424242;
 }
 
 
