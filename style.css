@@ -50,17 +50,29 @@ body {
     display: flex;
     justify-content: center;
 
-    .main_container {
+.main_container {
         background-image: linear-gradient(to bottom, #ffffff, #f4f4f4);
         display: flex;
         flex-wrap: wrap; /* This is the key property */
-/* Remove or set height to auto: */
-height: auto;
-/* No fixed height or max-height */
-flex-direction: column;
-width: 1280px;
-padding-bottom: 64px;
-}
+        /* Remove or set height to auto: */
+        height: auto;
+        /* No fixed height or max-height */
+        flex-direction: column;
+        width: 1280px;
+        padding-bottom: 64px;
+        }
+
+.main_container_dg {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap; /* This is the key property */
+        /* Remove or set height to auto: */
+        height: auto;
+        /* No fixed height or max-height */
+        flex-direction: column;
+        width: 1280px;
+        padding-bottom: 64px;
+        }
 
 
 
