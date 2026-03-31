@@ -522,6 +522,13 @@ BACK BUTON
     pointer-events:none;
 }
 
+.hr{
+    height:2px;
+    bwidth:100%;
+    background-color:#afafaf;
+    margin-bottom: 32px;
+}
+
 
 
 
@@ -542,7 +549,7 @@ HERO SECTIONS
 .hero-section-dg {
     position: relative;
     width: 100%;
-    min-height: 200px;
+    min-height: 180px;
     display: flex;
     align-items: flex-end;
     padding: 16px 0;
@@ -594,6 +601,15 @@ HERO SECTIONS
     position: relative;
     width: 100%;
     background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0.75) 42.788%, rgba(255, 255, 255, 0.25) 65.865%);
+    z-index: 1;
+}
+
+
+
+.title-overlay-dg {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.25)  0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.25) 100%);
     z-index: 1;
 }
 
