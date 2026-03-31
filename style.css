@@ -62,18 +62,6 @@ body {
         padding-bottom: 64px;
         }
 
-.main_container_dg {
-        background-color: white;
-        display: flex;
-        flex-wrap: wrap; /* This is the key property */
-        /* Remove or set height to auto: */
-        height: auto;
-        /* No fixed height or max-height */
-        flex-direction: column;
-        width: 1280px;
-        padding-bottom: 64px;
-        }
-
 
 
 .full-width-image {
