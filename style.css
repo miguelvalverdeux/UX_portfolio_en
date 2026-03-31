@@ -647,6 +647,7 @@ SECTION STYLE
     margin: 64px 120px 0px 120px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -663,9 +664,16 @@ SECTION STYLE
     gap: 16px;
 }
 
-.section-icon {
-    width: 32px;
-    height: 32px;
+.section-header-dg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.section-icon-dg {
+    width: 48px;
+    height: 48px;
     flex-shrink: 0;
 }
 
