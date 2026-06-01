@@ -722,7 +722,7 @@ SECTION STYLE
 
 .section-header-dg {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 16px;
 }
@@ -2038,3 +2038,96 @@ background: linear-gradient(0deg,rgba(250, 254, 255, 1) 0%, rgba(204, 234, 240, 
     
 
 }
+
+
+
+
+
+
+/* STORE */
+
+.ways_item{
+
+    width:33%;
+    align-items: center;
+    padding:32px;
+    margin:32px;
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(to top, #f5eef4, #cddde3);
+    text-align: center;
+    gap:16px;
+}
+
+.ways_item object{
+    width:48px;
+    height:48px;
+    border-radius:8px;
+}
+
+
+
+.ways_item span {
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+}
+
+.users_item{
+
+    width:24%;
+    align-items: center;
+    padding:24px;
+    text-align: center;
+    gap:16px;
+}
+
+.users_item object{
+    width:48px;
+    height:48px;
+    border-radius:8px;
+}
+
+
+
+.users_item span {
+    font-size: 13px;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+}
+
+
+.sewist{
+
+   
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(to top, #fefff7, #cfe3cd);
+}
+
+
+.embroiderist{
+
+   
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(to top, #fdf7ff, #e3cdd0);
+}
+
+
+.crafter{
+
+   
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(to top, #fbf7ff, #e1cde3);
+}
+
+
+.quilter{
+
+   
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(to top, #f7f8ff, #cdd6e3);
+}
+
+
+
